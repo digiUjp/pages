@@ -51,7 +51,7 @@
                         document.body.offsetHeight, document.documentElement.offsetHeight,
                         document.body.clientHeight, document.documentElement.clientHeight
                     )
-                    if (scrollTop + windowHeight * 3 + 5 >= docHeight) {
+                    if (scrollTop + windowHeight * 2.5 >= docHeight) {
                         window.scrollTo({ top: 0 })//, behavior: 'smooth'
                         document.body.style.height = '2000px'
                         const intervalMs = 8000
@@ -70,4 +70,5 @@
 </body>
 
 </html>
+
 
